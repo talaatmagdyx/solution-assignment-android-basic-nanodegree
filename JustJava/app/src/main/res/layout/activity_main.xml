@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.talaatmagdy.justjava.MainActivity"
+        android:layout_marginLeft="16dp"
+        >
+
+        <EditText
+            android:id="@+id/Editname"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Name"
+            android:inputType="textMultiLine"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toppings"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+
+            />
+
+            <CheckBox
+                android:id="@+id/Whippedcreamcheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Whipped cream"
+                android:paddingLeft="24dp"
+                />
+        <CheckBox
+            android:id="@+id/Chocolatecheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Chocolate"
+            android:paddingLeft="24dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quality"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:layout_marginBottom="16dp"
+
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+            <Button
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="+"
+                android:onClick="increment"
+                />
+
+            <TextView
+                android:id="@+id/number_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                />
+            <Button
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="-"
+                android:layout_marginBottom="16dp"
+                android:onClick="decrement"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textAllCaps="true"
+            android:layout_marginBottom="16dp"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/price_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 $"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order"
+            android:layout_marginTop="16dp"
+            android:onClick="submitOrder"
+
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
