@@ -1,6 +1,7 @@
 solution assignment [android basic nanodegre](https://www.udacity.com/course/android-basics-nanodegree-by-google--nd803) 
 ------
 slove assignment of android basic nanodegre course taught in Java by Google
+
 Several key App components (including a UI, Interactive and a more concept) are built through the course.
 
  Projects
